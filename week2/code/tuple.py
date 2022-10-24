@@ -16,3 +16,5 @@ birds = ( ('Passerculus sandwichensis','Savannah sparrow',18.7),
 # ... etc.
 
 # Hints: use the "print" command! You can use list comprehensions!
+
+[print("Latin name:", a, "\n", "Common name:", b,"\n","Mass:", c, "\n") for (a,b,c) in birds]
