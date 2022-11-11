@@ -15,7 +15,7 @@ Learned from [The Multilingual Quantitative Biologist](https://mhasoba.github.io
 
 ## Languages
 
-python
+R
 
 ## Installation
 
