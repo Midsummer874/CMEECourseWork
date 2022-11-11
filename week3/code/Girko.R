@@ -33,3 +33,8 @@ p <- p + geom_vline(aes(xintercept = 0))
 # finally, add the ellipse
 p <- p + geom_polygon(data = ellDF, aes(x = Real, y = Imaginary, alpha = 1/20, fill = "red"))
 p
+
+#save to pdf
+pdf("../results/Girko.pdf")
+print(p)
+dev.off()

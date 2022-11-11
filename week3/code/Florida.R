@@ -15,7 +15,7 @@ corr_sam <- data.frame(matrix(unlist(replicate(10000, cor(ats$Year, sample(ats$T
 
 #Calculate what fraction of the random correlation coefficients were greater than the observed one
 num <- 0
-for (i in corr_sam){ #use
+for (i in corr_sam){ #use loops to calculate abs
   if (abs(i) > abs(corr)){
     num <- num + 1
   }
