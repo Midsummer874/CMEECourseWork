@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+# Filename: oaks.py
+"""Function to oaks"""
+#docstrings are considered part of the running code (normal comments are
+#stripped). Hence, you can access your docstrings at run time.
+
+__author__ = 'Shengge Tong (shengge.tong22@imperial.ac.uk)'
+__version__ = '0.0.1'
+
 ## Finds just those taxa that are oak trees from a list of species
 
 taxa = [ 'Quercus robur',
@@ -8,6 +17,14 @@ taxa = [ 'Quercus robur',
        ]
 
 def is_an_oak(name):
+"""
+    Des:
+    	A function to test if it is oak
+    Arg:
+        name
+    Return:
+    	results
+    """
     return name.lower().startswith('quercus ')
 
 ##Using for loops

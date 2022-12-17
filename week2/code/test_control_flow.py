@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Filename: test_control_flow.py
 
 """Some functions exemplifying the use of control statements"""
 
@@ -28,7 +29,7 @@ def even_or_odd(x=0):
     return f"{x} is Odd!"
 
 def main(argv):
-
+	"""The main function to run"""
     print(even_or_odd(22))
     print(even_or_odd(33))
     return 0

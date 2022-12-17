@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+# Filename: dictionary.py
+
+"""Function to dictionary"""
+#docstrings are considered part of the running code (normal comments are
+#stripped). Hence, you can access your docstrings at run time.
+__author__ = 'Shengge Tong (shengge.tong22@imperial.ac.uk)'
+__version__ = '0.0.1'
+
 taxa = [ ('Myotis lucifugus','Chiroptera'),
          ('Gerbillus henleyi','Rodentia',),
          ('Peromyscus crinitus', 'Rodentia'),
@@ -19,7 +28,13 @@ taxa = [ ('Myotis lucifugus','Chiroptera'),
 #  OR,
 # 'Chiroptera': {'Myotis lucifugus'} ... etc
 
+    """
+    Des:
+    	An exercise for dictionary
 
+    Return:
+    	A new dictionary
+    """
 taxa_dic = {}
 for i in taxa:
         taxa_dic.setdefault(i[1],set()).add(i[0])

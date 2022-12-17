@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+# Filename: tuple.py
+
+"""Some functions exemplifying the use of control statements"""
+
+__author__ = 'Shengge Tong (shengge.tong22@imperial.ac.uk)'
+__version__ = '0.0.1'
+
 birds = ( ('Passerculus sandwichensis','Savannah sparrow',18.7),
           ('Delichon urbica','House martin',19),
           ('Junco phaeonotus','Yellow-eyed junco',19.5),

@@ -4,6 +4,7 @@
 
 - **Description**
 - **Languages**
+- **Dependencies**
 - **Installation**
 - **Project structure and Usage**
 - **Author name and Contact**
@@ -16,6 +17,22 @@ Learned from [The Multilingual Quantitative Biologist](https://mhasoba.github.io
 ## Languages
 
 python
+
+## Dependencies
+
+sys - used for taking the input parameter from command line
+
+pandas - for csv reading
+
+numpy - for mathematical operation
+
+csv - for csv reading
+
+re - for matching patterns or strings
+
+os - used to split the string of input and eliminate the extension in R
+
+doctest - for testing modules
 
 ## Installation
 
@@ -39,45 +56,49 @@ git clone https://github.com/Midsummer874/CMEECourseWork.git
 
 - **CMEECourseWork/week2/code**
 
-  - ***align_seqs.py:*** 
+  - ***align_seqs_better.py:*** Script to align two sequences after taking an input from user.
+ 
+  - ***align_seqs_fasta.py:*** Script to align two sequences after taking an input from user.
+ 
+  - ***align_seqs.py:*** Takes the DNA sequences as an input from a single external file.
 
-  - ***basic_csv:*** 
+  - ***basic_csv.py:*** Read and write files
 
-  - ***basic_io1.py:*** 
+  - ***basic_io1.py:*** Script to align two sequences after taking an input from user.
 
-  - ***basic_io2.py:*** 
+  - ***basic_io2.py:*** Save the elements of a list to a file
 
-  - ***basic_io3.py:*** 
+  - ***basic_io3.py:*** To save an object (even complex) for later use
 
-  - ***boilerplate.py:*** 
+  - ***boilerplate.py:*** Description of this program or application.
 
-  - ***cfexercise1.py:*** 
+  - ***cfexercise1.py:*** Some functions exemplifying the use of control statements
 
-  - ***cfexercise2.py:*** 
+  - ***cfexercise2.py:*** Some functions exemplifying the use of control statements
 
-  - ***control_flow.py:*** 
+  - ***control_flow.py:*** Describe the control flow
 
-  - ***debugme.py:*** 
+  - ***debugme.py:*** The debug script
 
-  - ***dictionary:*** 
+  - ***dictionary:*** An exercise for the dictionary practical
 
-  - ***lc1.py:*** 
+  - ***lc1.py:*** An exercise for the list practical
 
-  - ***lc2.py:***
+  - ***lc2.py:*** An exercise for the list practical
 
-  - ***loops.py:***
+  - ***loops.py:*** An example of different kinds of loops
 
-  - ***MyExampleScript.py***
+  - ***MyExampleScript.py*** An example script
 
-  - ***oaks.py:***
+  - ***oaks.py:*** Finds just those taxa that are oak trees from a list of species
 
-  - ***oaks_debugme.py:***
+  - ***oaks_debugme.py:*** The debugme file of oaks
 
-  - ***sysargv.py:***
+  - ***sysargv.py:*** A script for sys argv
 
-  - ***test_control_flow.py:***
+  - ***test_control_flow.py:*** A test script for the control flow
   
-  - ***tuple.py:***
+  - ***tuple.py:*** An exercise for the tuple
 
 ## Author name and contact
 

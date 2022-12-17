@@ -4,6 +4,7 @@
 
 - **Description**
 - **Languages**
+- **Dependencies**
 - **Installation**
 - **Project structure**
 - **Author name and Contact**
@@ -16,6 +17,11 @@ Learned from [The Multilingual Quantitative Biologist](https://mhasoba.github.io
 ## Languages
 
 R
+
+## Dependencies
+
+os - used to split the string of input and eliminate the extension in R
+tidyverse - for selecting data and subsetting
 
 ## Installation
 

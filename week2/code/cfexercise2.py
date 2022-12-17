@@ -1,5 +1,13 @@
 ########################
 def hello_1(x):
+  """
+    Des:
+	Function to print hello when 3x
+    Arg:
+    	x
+    Return:
+  	hello
+  """
     for j in range(x):
         if j % 3 == 0:
             print('hello')
@@ -9,6 +17,14 @@ hello_1(12)
 
 ########################
 def hello_2(x):
+  """
+    Des:
+	Function to print hello 
+    Arg:
+    	x
+    Return:
+  	hello
+  """
     for j in range(x):
         if j % 5 == 3:
             print('hello')
@@ -20,6 +36,14 @@ hello_2(12)
 
 ########################
 def hello_3(x, y):
+  """
+    Des:
+	Function to print hello when
+    Arg:
+    	x
+    Return:
+  	hello
+  """
     for i in range(x, y):
         print('hello')
     print(' ')
@@ -28,6 +52,14 @@ hello_3(3, 17)
 
 ########################
 def hello_4(x):
+  """
+    Des:
+	Function to print hello when
+    Arg:
+    	x
+    Return:
+  	hello
+  """
     while x != 15:
         print('hello')
         x = x + 3
@@ -37,6 +69,14 @@ hello_4(0)
 
 ########################
 def hello_5(x):
+  """
+    Des:
+	Function to print hello when
+    Arg:
+    	x
+    Return:
+  	hello
+  """
     while x < 100:
         if x == 31:
             for k in range(7):
@@ -50,6 +90,14 @@ hello_5(12)
 
 # WHILE loop with BREAK
 def hello_6(x, y):
+  """
+    Des:
+	Function to print hello when
+    Arg:
+    	x,y
+    Return:
+  	hello
+  """
     while x: # while x is True
         print("hello! " + str(y))
         y += 1 # increment y by 1 

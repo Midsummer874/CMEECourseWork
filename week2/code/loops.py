@@ -1,3 +1,20 @@
+#!/usr/bin/env python3
+# Filename: loops.py
+"""Function to loops"""
+#docstrings are considered part of the running code (normal comments are
+#stripped). Hence, you can access your docstrings at run time.
+
+__author__ = 'Shengge Tong (shengge.tong22@imperial.ac.uk)'
+__version__ = '0.0.1'
+
+"""
+    Des:
+    	An exercise for loops
+
+    Return:
+    	results
+    """
+    
 # FOR loops
 for i in range(5):
     print(i)

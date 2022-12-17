@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+# Filename: oaks_debugme.py
+"""Function to oaks_debugme.py"""
+#docstrings are considered part of the running code (normal comments are
+#stripped). Hence, you can access your docstrings at run time.
+
+__author__ = 'Shengge Tong (shengge.tong22@imperial.ac.uk)'
+__version__ = '0.0.1'
+
 import csv
 import sys
 
@@ -24,6 +33,14 @@ def is_an_oak(name):
     return name.lower().startswith('quercs')
 
 def main(argv): 
+"""
+    Des:
+    	The main function to run all the functions
+    Arg:
+	argv
+    Return:
+    	0
+    """
     f = open('../data/TestOaksData.csv','r')
     g = open('../data/JustOaksData.csv','w')
     taxa = csv.reader(f)

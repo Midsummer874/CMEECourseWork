@@ -3,7 +3,7 @@
 """Description of this program or application.
 You can use several lines"""
 
-__appname__ = '[boilerplate'
+__appname__ = 'boilerplate.py'
 __author__ = 'shengge.tong22@imperial.ac.uk'
 __version__ = '0.0.1'
 __license__ = "License for this code/program"
@@ -16,7 +16,13 @@ import sys # module to interface our program with the operating system
 
 ## functions ##
 def main(argv):
-    """ Main entry point of the program """
+    """ 
+    Des:
+    	Main entry point of the program 
+    	
+    Return:
+    	none
+    """
     print('This is a boilerplate') # NOTE: indented using two tabs or 4 spaces
     return 0
 

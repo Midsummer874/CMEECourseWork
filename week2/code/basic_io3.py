@@ -1,7 +1,12 @@
 #############################
 # STORING OBJECTS
 #############################
-# To save an object (even complex) for later use
+"""
+  Des:
+	To save an object (even complex) for later use
+  Return:
+  	testp.p
+"""
 my_dictionary = {"a key": 10, "another key": 11}
 
 import pickle
