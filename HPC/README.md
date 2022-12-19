@@ -1,4 +1,4 @@
-# CMEECoursework: Week 4
+# CMEECoursework: HPC
 
 ## Contents
 
