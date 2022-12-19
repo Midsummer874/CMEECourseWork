@@ -38,7 +38,7 @@ choose_two <- function(max_value){
 neutral_step <- function(community){
   indices <- choose_two(length(community))
   community[indices[1]] <- community[indices[2]]
-  community
+  return(community)
 }
 
 # Question 6
@@ -49,7 +49,7 @@ neutral_generation <- function(community){
   for (i in 1:steps) {
     community <- neutral_step(community)
   }
-  community
+  return(community)
 }
 
 # Question 7
@@ -61,7 +61,7 @@ neutral_time_series <- function(community,duration)  {
     community <- neutral_generation(community)
     result[i] <- species_richness(community)
   }
-  result
+  return(result)
 }
 
 
