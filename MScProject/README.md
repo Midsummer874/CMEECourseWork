@@ -3,16 +3,15 @@
 ## Contents
 * *code:* Contains the tex and python scripts of the project. 
 * *data:* Contains the datasets
-* *results:* Contains the output of the scripts.
-* *sandbox:* Contains the figures
+* *results:* Contains the well-trained models
 * *writeup:* Contains the Latex PDF document
 
 ## Languages
-**Python, R, LaTex**
+**Python, LaTex**
 
 ## Dependencies
 
-**Python 3.8.10:**
+**Python 3.10.11:**
 * *pandas:* For data preprocessing
 * *numpy:* For data preprocessing
 * *warning:* For ignoring warnings
@@ -21,23 +20,31 @@
 * *scipy:* For fitting models
 * *sklearn:* For fitting models
 * *lmfit:* For fitting models
-
-**R:**
-
-* *reshape2:* For reshape the data
-* *ggplot2:* For plot the data
+* *torch* For conducting deep learning models
+* *PIL* For image processing
+* *os* For system task
 
 
 ## Scripts list
 
-### **1. Gantt_chart: Gantt_chart.r**
+### **1. main2.py**
 
-**Generate a chart**
+**Data preprocessing and model training**
 
-### **2. Compiling LaTex scirpts: titlepage.tex, proposal.tex and proposal.bib**
+### **2. predict2.py**
 
-**LaTeX report file and its bibliography.**
+**The trained model is used for prediction**
 
+### **3. myutils.py**
+
+**Scripts to assist model training**
+
+### **4. QR code.py**
+**Batch identification of two-dimensional code in the image script**
+
+### **5. Project.tex and titlepage.tex**
+
+**LaTeX source code of the thesis**
 
 ## Author and Contact
 
